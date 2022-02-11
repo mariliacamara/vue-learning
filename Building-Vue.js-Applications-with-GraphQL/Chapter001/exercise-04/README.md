@@ -1,10 +1,12 @@
-# Current Time
+# Task
 
-Adding an event listener to an element
+- Exercise 04 - Adding an event listener to an element
+- Exercise 05 - Removing the v-model directive from the input
 
-## What it does?
+## What I learned?
 
-Learning how to create custom events and how to emit them.
+- How to create custom events and how to emit them.
+- V-modal automatically declares the bind. While the :value can be a variable, a method, a computed property, or a Vuex getter, etc. In terms of the event listener, it can be a function or a direct declaration of a variable assignment.
 
 ## Notes
 
