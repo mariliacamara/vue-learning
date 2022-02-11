@@ -1,14 +1,14 @@
-# Task Input
+# Current Time
 
-Creating an input form with two-way binding 
+Adding an event listener to an element
 
 ## What it does?
 
-Learning how to bind components
+Learning how to create custom events and how to emit them.
 
 ## Notes
 
-- v-model directive: This model is what is called two-way data binding.
+- 
 
 # Setup
 
