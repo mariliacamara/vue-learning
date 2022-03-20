@@ -4,6 +4,7 @@ let vm = Vue.createApp({
       message: "Hello, people! 🚀",
     };
   },
+  template: `{{ message }}`,
   beforeCreate() {
     // this is undefined because the beforeCreate function doesn't have access to any data yet!
     console.log("👾 beforeCreate() called!", this.message);
