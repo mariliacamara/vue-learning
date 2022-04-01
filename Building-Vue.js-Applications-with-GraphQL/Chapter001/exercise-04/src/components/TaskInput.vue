@@ -1,12 +1,14 @@
 <template>
   <div class="cardBox">
-    <h2>My task is: {{ task }}</h2>
-    <input 
-      type="text" 
-      :value="task"
-      @input="task = $event.target.value"
-      class="taskInput" />
-    <button @click="addTask">Add Task</button>
+    <div class="container tasker">
+      <h2>My task is: {{ task }}</h2>
+        <input 
+          type="text" 
+          :value="task"
+          @input="task = $event.target.value"
+          class="taskInput" />
+        <button @click="addTask">Add Task</button>
+      </div>
   </div>
 </template>
 
